@@ -11,7 +11,7 @@
 <body>
 
 <!-- A grey horizontal navbar that becomes vertical on small screens -->
-<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+<nav class="navbar fixed-top navbar-expand-sm bg-primary navbar-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html">
       <img src="logo.png" alt="" width="24" height="24" class="d-inline-block align-text-top">
@@ -37,45 +37,33 @@
 </nav>
 
 <div class="vh-100 d-flex">
-  <div class="m-auto">
-      <!-- Profile Image -->
-      <img src="profile.jpg" alt="My profile picture" class="rounded-circle mx-auto d-block p-4" width = "250"/>
-
-      <!-- Text -->
-      <h1 class="text-center p-2">
-        Simone
-      </h1>
-      <div style="max-width:300px;">
-      <p class="text-center">
-        I am a Ph.D. student in upside-down studies at Sunspot University.
-      </p>
-      <p class="text-center" >
-        Most of my current research is driven by trying to find an answer to the age-old question of “How cute am I?"
-      </p>
-      <p class="text-center">
-        Please feel free to get in touch!
-      </p>
+  <div class="container-fluid m-auto text-center">
+    <div class="row justify-content-center">
+      <img src="profile.jpg" alt="My profile picture" class="img-fluid rounded-circle mx-auto d-block mt-5 p-1" width = "350px"/>
     </div>
-
-      <!-- Icons -->
-      <div class = "container-fluid text-center">
-        <a class="icon-link p-2" href="#">
-          <i class="bi-envelope-fill h3"></i>
-        </a>
-        <a class="icon-link p-2" href="test-cv.pdf">
-          <i class="bi-file-person h3"></i>
-        </a>
-        <a class="icon-link p-2" href="#">
-          <i class="bi-linkedin h3"></i>
-        </a>
-        <a class="icon-link p-2" href="#">
-          <i class="bi-google h3"></i>
-        </a>
-        <a class="icon-link p-2" href="#">
-          <i class="bi-github h3"></i>
-        </a>
+    <div class="row justify-content-center">
+      <div class="container" style="max-width:400px">
+        <h1 class="mb-2 mt-3">
+          Simone
+        </h1>
+        <p>
+          I am a Ph.D. student in upside-down studies at Sunspot University.
+        </p>
+        <p>
+          Most of my current research is driven by trying to find an answer to the age-old question of “How cute am I?"
+        </p>
+        <p>
+          Please feel free to get in touch!
+        </p>
       </div>
-      
+    </div>
+    <div class="row justify-content-center"></div>
+      <a class="icon-link p-2" href="#"><i class="bi-envelope-fill h3"></i></a>
+      <a class="icon-link p-2" href="test-cv.pdf"><i class="bi-file-person h3"></i></a>
+      <a class="icon-link p-2" href="#"><i class="bi-linkedin h3"></i></a>
+      <a class="icon-link p-2" href="#"><i class="bi-google h3"></i></a>
+      <a class="icon-link p-2" href="#"><i class="bi-github h3"></i></a>
+    </div>
   </div>
 </div>
 
