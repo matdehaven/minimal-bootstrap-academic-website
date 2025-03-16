@@ -31,6 +31,8 @@ Then simply go through each html file and edit the text however you would like.
 
 The "research.html" page makes use of Bootstrap "cards", which you can read more about [here](https://getbootstrap.com/docs/5.0/components/card/).
 
+Change the theme by choosing a new [Bootswatch theme](https://www.bootstrapcdn.com/bootswatch/?theme=4) (default is Flatly). Replace the bootswatch CDN link in each html file with the new theme.
+
 ## Acknowledgements
 
 This repository was inspired by [minimal-academic-website](https://github.com/timothygebhard/minimal-academic-website).
